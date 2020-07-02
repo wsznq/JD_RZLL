@@ -1,0 +1,18 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0"><link rel=icon href=/dist/favicon.ico><title>入职履历填写</title><link href=/dist/static/css/chunk-4bd70516.bcac7cf3.css rel=prefetch><link href=/dist/static/js/chunk-0e0ce81a.9e18339a.js rel=prefetch><link href=/dist/static/js/chunk-133df3fb.cb66116a.js rel=prefetch><link href=/dist/static/js/chunk-3c14e854.dc1a7276.js rel=prefetch><link href=/dist/static/js/chunk-3c636254.89164d52.js rel=prefetch><link href=/dist/static/js/chunk-464bc068.98441fa5.js rel=prefetch><link href=/dist/static/js/chunk-4b8287cf.561ea770.js rel=prefetch><link href=/dist/static/js/chunk-4bd70516.2a5cc59b.js rel=prefetch><link href=/dist/static/js/chunk-55948ea4.0e39b959.js rel=prefetch><link href=/dist/static/js/chunk-5792e8f0.0db9621f.js rel=prefetch><link href=/dist/static/js/chunk-6e568de2.fa9b3add.js rel=prefetch><link href=/dist/static/js/chunk-d622bb96.2572ae51.js rel=prefetch><link href=/dist/static/js/chunk-d79d2518.e07cccee.js rel=prefetch><link href=/dist/static/css/index.779f7d1d.css rel=preload as=style><link href=/dist/static/js/index.c4ad1ff2.js rel=preload as=script><link href=/dist/static/css/index.779f7d1d.css rel=stylesheet></head><body><noscript><strong>We're sorry but project-name doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/dist/static/js/index.c4ad1ff2.js></script></body><script>// eruda.init();
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'onorientationchange' in window ? 'onorientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          if (clientWidth >= 750) {
+            docEl.style.fontSize = '100px';
+          } else {
+            docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+          }
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);</script></html>
